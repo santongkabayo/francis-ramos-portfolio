@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Francis Ramos | Portfolio</title>
+  <meta name="description" content="Portfolio of Francis Jr. E. Ramos, a BSIT student passionate about programming and tech solutions." />
+  <meta name="keywords" content="Francis Ramos, BSIT, portfolio, programming, Java, web development, Cebu Technological University" />
+  <meta name="author" content="Francis Jr. E. Ramos" />
+  <link rel="stylesheet" href="ramos.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Francis Jr. E. Ramos</h1>
+    <h2>BSIT Student</h2>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+  </header>
+
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="about">
+    <img src="mypic.jpg" alt="Profile picture of Francis Jr. E. Ramos" class="profile-pic" />
+
+    <div class="info">
+      <p><strong>Address:</strong> Quiot Pardo, Cebu City</p>
+      <p><strong>Contact:</strong> 09814679970</p>
+      <p><strong>Email:</strong> ramosjrfrancis01@gmail.com</p>
+      <p><strong>University:</strong> Cebu Technological University</p>
+    </div>
+  </section>
+
+  <section class="intro">
+    <p>
+      Hello! I'm <strong>Francis Jr. E. Ramos</strong>, a passionate BSIT student
+      who loves building tech solutions and learning about programming.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Philippine Cyber Bank System</h3>
+        <p>
+          Helped develop the core banking system that improves fast, secure, and reliable digital banking for users.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Java</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Medicine Recommendation Web App</h3>
+        <p>
+          Created a website that suggests medicine based on symptoms. I worked on the UI and main features.
+        </p>
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">PHP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>Bachelor of Science in Information Technology</h3>
+      <p><strong>Cebu Technological University</strong></p>
+      <p>Programming, Web Development, Database Management</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <div class="actions">
+    <a href="ramos.html" class="btn">About Me →</a>
+  </div>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/santongkabayo" target="_blank" class="social-icon">GitHub</a>
+      <a href="https://www.facebook.com/Francisramosjr" target="_blank" class="social-icon">Facebook</a>
+    </div>
+    <p>© 2025 Francis Ramos | All Rights Reserved</p>
+  </footer>
+
+  <script src="ramos.js"></script>
+</body>
+</html>
